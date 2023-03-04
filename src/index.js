@@ -1,6 +1,7 @@
+
 import './css/styles.css';
 import _debounce from 'lodash.debounce';
- import openai from 'openai';
+//  import openai from 'openai';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import fetchCountries from './js/fetchCountries.js';
 import { countryСardTeemplate, countryListTemplate, countryGptTemplate  } from './js/markupTemplate';
