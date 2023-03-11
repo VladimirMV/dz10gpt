@@ -29,7 +29,7 @@ const promptEngine = new PromptEngine(description, examples, flowResetText, {
 promptEngine.addInteractions([
   { 
     input: "What is the size of an SUV in general?",
-    response: "An SUV typically ranges from 16 to 20 feet long."
+    response: "An SUV typically ranges from 16 to 30 feet long."
   },
 ]);
 
