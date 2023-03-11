@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://VladimirMV.github.io/dz10gpt",
   "scripts": {
-    "start": "parcel src/*.html  --open",
-    "build": "parcel build src/*.html --public-url ./dz10gpt/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url dz10gpt/"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,7 @@
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
-    "openai": "^3.2.1",
-    "prompt-engine": "^0.0.31"
+    
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

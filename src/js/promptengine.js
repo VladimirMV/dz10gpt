@@ -1,5 +1,5 @@
 import { PromptEngine } from "prompt-engine";
-const description = "I want to speak with a bot which replies in under 20 words each time";
+const description = "I want to speak with a bot which replies in under 30 words each time";
 const examples = [
   { input: "Hi", response: "I'm a chatbot. I can chat with you about anything you'd like." },
   { input: "Can you help me with the size of the universe?", response: "Sure. The universe is estimated to be around 93 billion light years in diameter." },
