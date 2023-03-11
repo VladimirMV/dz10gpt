@@ -52,7 +52,7 @@ console.log("PROMPT LENGTH: " + outputPrompt.length);
 
 
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = 'sk-X1WiNyBel2SmM3q9pssZT3BlbkFJSwlJkhJPHu2BIAURLdf';
 const DEBOUNCE_DELAY = 300;
 
 const refs = {
