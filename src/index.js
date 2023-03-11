@@ -13,13 +13,15 @@ import {callGptApi} from './js/gpt-service.js';
 
 
 import { PromptEngine } from "prompt-engine";
+debugger;
 const description = "I want to speak with a bot which replies in under 20 words each time";
 const examples = [
   { input: "Hi", response: "I'm a chatbot. I can chat with you about anything you'd like." },
   { input: "Can you help me with the size of the universe?", response: "Sure. The universe is estimated to be around 93 billion light years in diameter." },
 ];
 const flowResetText = "Forget the earlier conversation and start afresh";
-console.log("PROMPT Вызов n" );
+console.log("PROMPT Вызов n");
+
 const promptEngine = new PromptEngine(description, examples, flowResetText, {
   modelConfig: {
     maxTokens: 512,
