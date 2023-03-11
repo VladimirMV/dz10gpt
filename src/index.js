@@ -19,13 +19,14 @@ const examples = [
   { input: "Can you help me with the size of the universe?", response: "Sure. The universe is estimated to be around 93 billion light years in diameter." },
 ];
 const flowResetText = "Forget the earlier conversation and start afresh";
-
+console.log("PROMPT Вызов n" );
 const promptEngine = new PromptEngine(description, examples, flowResetText, {
   modelConfig: {
     maxTokens: 512,
   }
 });
 
+console.log("PpromptEngine" + promptEngine);
 promptEngine.addInteractions([
   { 
     input: "What is the size of an SUV in general?",
@@ -50,9 +51,9 @@ console.log("PROMPT LENGTH: " + outputPrompt.length);
 
 
 
+const OPENAI_API_KEY = 'sk-BAU4BiDLeMs7ZhGta9z4T3BlbkFJT2CityLreuYrxFTqtuoierror';
 
-
-const OPENAI_API_KEY = 'sk-X1WiNyBel2SmM3q9pssZT3BlbkFJSwlJkhJPHu2BIAURLdf';
+// const OPENAI_API_KEY = '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';
 const DEBOUNCE_DELAY = 300;
 
 const refs = {
@@ -79,7 +80,7 @@ openModalBtn.addEventListener("click", toggleBtnModal);
 
  
 
-
+console.log("  ВызовstartMap n" );
 startMap();
 
 const clearMarkup = element => (element.innerHTML = '');
