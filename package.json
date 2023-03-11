@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://VladimirMV.github.io/dz10gpt",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./dz10gpt/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/index.html --public-url /dz10gpt/"  
   },
   "repository": {
     "type": "git",
